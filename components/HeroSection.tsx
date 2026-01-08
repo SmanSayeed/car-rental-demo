@@ -56,7 +56,7 @@ export function HeroSection() {
                 </AnimatePresence>
             </div>
 
-            <div className="container relative z-20 px-4 md:px-6 flex flex-col items-start gap-8 md:gap-12 md:justify-center md:h-full pt-32 md:pt-20">
+            <div className="max-w-[1200px] mx-auto relative z-20 px-4 md:px-6 flex flex-col items-start gap-8 md:gap-12 md:justify-center md:h-full pt-32 md:pt-20">
                 {/* Hero Text Content */}
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
