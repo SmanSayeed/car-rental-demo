@@ -33,7 +33,7 @@ export function CategorySection() {
 
     return (
         <section className="py-24 bg-[#0c1315]">
-            <div className="container px-4 md:px-6 mx-auto">
+            <div className="max-w-[1200px] mx-auto px-4 md:px-6">
                 <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
                     <div className="space-y-4">
                         <div className="inline-block px-3 py-1 text-primary text-xs font-bold tracking-[0.2em] uppercase border-l-2 border-primary pl-4">
