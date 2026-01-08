@@ -28,7 +28,7 @@ const chauffeurs = [
 export function ChauffeurSection() {
     return (
         <section className="py-24 bg-[#0c1315] relative border-t border-white/5">
-            <div className="container px-4 md:px-6 mx-auto text-center">
+            <div className="max-w-[1200px] mx-auto px-4 md:px-6 text-center">
                 <div className="mb-16 space-y-4">
                     <div className="inline-block px-3 py-1 text-primary text-xs font-bold tracking-[0.2em] uppercase border border-primary/30">
                         Meet The Team

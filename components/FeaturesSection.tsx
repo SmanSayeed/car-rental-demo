@@ -41,7 +41,7 @@ export function FeaturesSection() {
             {/* Subtle background glow */}
             <div className="absolute top-0 right-0 w-1/3 h-1/3 bg-primary/5 rounded-full blur-[120px] pointer-events-none" />
 
-            <div className="container px-4 md:px-6 mx-auto relative z-10">
+            <div className="max-w-[1200px] mx-auto px-4 md:px-6 relative z-10">
                 <div className="flex flex-col md:flex-row gap-12 items-start justify-between mb-16">
                     <div className="max-w-2xl">
                         <div className="inline-block px-3 py-1 text-primary text-xs font-bold tracking-[0.2em] uppercase mb-4 border-l-2 border-primary pl-4">

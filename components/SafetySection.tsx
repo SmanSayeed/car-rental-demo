@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 export function SafetySection() {
     return (
         <section className="py-24 bg-[#0c1315] relative">
-            <div className="container px-4 md:px-6 mx-auto">
+            <div className="max-w-[1200px] mx-auto px-4 md:px-6">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     {/* Text Content */}
                     <div className="order-2 lg:order-1 space-y-8">

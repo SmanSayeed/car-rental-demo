@@ -27,7 +27,7 @@ const services = [
 export function ServicesSection() {
     return (
         <section id="services" className="py-24 bg-background relative overflow-hidden">
-            <div className="container px-4 md:px-6 mx-auto">
+            <div className="max-w-[1200px] mx-auto px-4 md:px-6">
                 <div className="flex flex-col items-center text-center space-y-4 mb-16">
                     <h2 className="text-3xl md:text-5xl font-bold">Why Choose <span className="text-primary">LuxeDrive</span>?</h2>
                     <p className="text-muted-foreground max-w-2xl text-lg">

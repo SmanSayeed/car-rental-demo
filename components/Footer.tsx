@@ -5,7 +5,7 @@ import { Facebook, Instagram, Twitter, Linkedin, MapPin, Phone, Mail } from "luc
 export function Footer() {
     return (
         <footer className="bg-[#0c1315] border-t border-white/10 pt-20 pb-10">
-            <div className="container px-4 md:px-6 mx-auto">
+            <div className="max-w-[1200px] mx-auto px-4 md:px-6">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
                     <div className="space-y-6">
                         <Link href="/" className="flex items-center gap-2 group">

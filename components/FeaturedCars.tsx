@@ -40,7 +40,7 @@ const featuredCars = [
 export function FeaturedCars() {
     return (
         <section className="py-32 bg-[#0c1315] relative">
-            <div className="container px-4 md:px-6 mx-auto relative z-10">
+            <div className="max-w-[1200px] mx-auto px-4 md:px-6 relative z-10">
                 <div className="flex flex-col md:flex-row items-end justify-between mb-16 gap-4">
                     <div className="space-y-4">
                         <div className="text-primary text-sm font-bold tracking-[0.2em] uppercase pl-4 border-l-2 border-primary">

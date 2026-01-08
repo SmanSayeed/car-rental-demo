@@ -93,7 +93,7 @@ export default function FleetPage() {
     return (
         <main className="min-h-screen bg-[#0c1315] flex flex-col text-white">
             <Navbar />
-            <div className="pt-32 pb-24 flex-1 container mx-auto px-4 md:px-6">
+            <div className="pt-32 pb-24 flex-1 max-w-[1200px] mx-auto px-4 md:px-6">
                 <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
                     <div className="space-y-4">
                         <div className="inline-block px-3 py-1 text-primary text-sm font-bold tracking-[0.2em] uppercase border-l-2 border-primary pl-4">

@@ -9,7 +9,7 @@ export function PromoSection() {
         <section className="relative py-32 bg-fixed bg-center bg-cover" style={{ backgroundImage: "url('/assets/12.jpg')" }}>
             <div className="absolute inset-0 bg-black/70 backdrop-blur-[2px]" />
 
-            <div className="container relative z-10 px-4 md:px-6 mx-auto text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-12">
+            <div className="max-w-[1200px] mx-auto relative z-10 px-4 md:px-6 text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-12">
                 <div className="max-w-2xl space-y-6">
                     <h2 className="text-5xl md:text-7xl font-normal text-white tracking-tighter leading-none" style={{ fontFamily: 'var(--font-epilogue)' }}>
                         PREMIUM <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-[#ffcea0]">CARS RENTAL</span>
